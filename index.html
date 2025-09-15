@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GeeksforGeeks Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+        }
+        h2 {
+            color: #228B22;
+            margin-bottom: 0;
+        }
+        hr {
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        .portfolio-title {
+            font-size: 18px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        .card-container {
+            display: flex;
+            gap: 20px;
+        }
+        .card {
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            width: 250px;
+            background: #fff;
+            box-shadow: 1px 1px 6px #eee;
+            overflow: hidden;
+        }
+        .card img {
+            width: 100%;
+            height: 90px;
+            object-fit: cover;
+        }
+        .card-content {
+            padding: 10px;
+        }
+        .card-title {
+            color: #228B22;
+            font-weight: bold;
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+        .card-desc {
+            font-size: 14px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h2>GeeksforGeeks</h2>
+    <div>A Computer Science Portal for Geeks</div>
+    <hr>
+    <div class="portfolio-title">Portfolio</div>
+    <div class="card-container">
+        <div class="card">
+            <img src="https://www.geeksforgeeks.org/wp-content/uploads/html.png" alt="" style="width:100%">
+            <div class="card-content">
+                <div class="card-title">HTML Tutorials</div>
+                <div class="card-desc">
+                    HTML stands for Hyper Text Markup Language. It is used to design web pages using markup language. HTML is the combination of Hypertext and Markup...
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://www.geeksforgeeks.org/wp-content/uploads/CSS.png" alt="" style="width:100%">
+            <div class="card-content">
+                <div class="card-title">CSS Tutorials</div>
+                <div class="card-desc">
+                    Cascading Style Sheets, fondly referred to as CSS, is a simply designed language intended to simplify the process of making web pages presentable. CSS...
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://www.geeksforgeeks.org/wp-content/uploads/php-1.png" alt="PHP">
+            <div class="card-content">
+                <div class="card-title">PHP Tutorials</div>
+                <div class="card-desc">
+                    The term PHP is an acronym for PHP: Hypertext Preprocessor. PHP is a widely-used open source scripting language especially suited for web development. PHP...
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://www.geeksforgeeks.org/wp-content/uploads/javascript.png" alt="" style="width:100%">
+            <div class="card-content">
+                <div class="card-title">JavaScript Tutorials</div>
+                <div class="card-desc">
+                    JavaScript was developed by Brendan Eich in 1995. At first, it was called LiveScript but later renamed to JavaScript. JavaScript is the muscle of...
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
